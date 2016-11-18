@@ -1,0 +1,24 @@
+{
+  "name": "gateway-service",
+  "version": "1.0.0",
+  "description": "Gateway Service for Example Node App",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GoogleCloudPlatform/nodejs-docs-samples.git"
+  },
+  "main": "gateway.js",
+  "engines": {
+    "node": "~6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node gateway.js",
+    "deploy": "gcloud app deploy"
+  },
+  "keywords": [],
+  "author": "Travis O'Neill",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
